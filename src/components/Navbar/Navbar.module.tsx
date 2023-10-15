@@ -6,10 +6,10 @@ const Navbar = () => {
       <Header>
         <Title>Menu</Title>
         <OrderLink>
-          <Links>Teste</Links>
+          <Links>WebSite</Links>
         </OrderLink>
         <OrderLink>
-          <Links>De</Links>
+          <Links>IBGE</Links>
         </OrderLink>
         <OrderLink>
           <Links>Coluna</Links>

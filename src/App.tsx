@@ -1,4 +1,3 @@
-import AboutMe from "./pages/WebSite/WebSite.module";
 import { Container } from "./App";
 import Navbar from "./components/Navbar/Navbar.module";
 import WebSite from "./pages/WebSite/WebSite.module";

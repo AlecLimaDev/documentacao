@@ -10,12 +10,16 @@ export const Container = styled.div`
   flex-flow: column;
   align-items: start;
   text-align: start;
+  max-width: 100%;
 
   h3 {
     font-family: Helvetica;
+    background-color: yellow;
+    color: red;
   }
 
   p {
     font-family: Arial;
+    flex-wrap: wrap;
   }
 `;

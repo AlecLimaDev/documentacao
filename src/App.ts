@@ -5,4 +5,7 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #1f1f1f;
+  color: white;
 `;

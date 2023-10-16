@@ -4,15 +4,12 @@ const Navbar = () => {
   return (
     <>
       <Header>
-        <Title>Menu</Title>
+        <Title>Projetos</Title>
         <OrderLink>
           <Links>WebSite</Links>
         </OrderLink>
         <OrderLink>
           <Links>IBGE</Links>
-        </OrderLink>
-        <OrderLink>
-          <Links>Coluna</Links>
         </OrderLink>
       </Header>
     </>

@@ -3,9 +3,9 @@ import { AboutTitle, Container } from "./WebSite. module";
 const WebSite = () => {
   return (
     <>
-      <AboutTitle>Projeto WebSite</AboutTitle>
       <Container>
-        <h3>Feito com React + NodeJs + MySql</h3>
+        <AboutTitle>Projeto WebSite</AboutTitle>
+        <h3>FEITO COM REACT + NODEJS + MYSQL</h3>
         <p>
           O Objetivo desse projeto foi fazer uma simulação de um site real.{" "}
         </p>
@@ -14,13 +14,17 @@ const WebSite = () => {
           primeiramente definir o que ele ia ser.
         </p>
 
-        <h3>O que é o Projeto? </h3>
+        <p>
+          Através da rota <b>/home</b> é possível visualizar a página onde está
+          sendo consumindo a api dos assuntos em alta dos EUA.
+        </p>
+        <h3>O QUE É O PROJETO? </h3>
         <p>
           O Projeto se trata de um WebSite com Cadastro e Autenticação de Login.
         </p>
         <p>
           Todo registro que é feito no Cadastro é enviado diretamente para o meu
-          database MYSQL. 
+          database MYSQL.
         </p>
         <p></p>
 
@@ -34,11 +38,11 @@ const WebSite = () => {
           <strong>http://localhost:3000</strong>
         </p>
 
-        <h3>Como Rodar no Docker</h3>
+        <h3>COMO RODAR NO DOCKER</h3>
         <p>docker build -t aleclimadev/website .</p>
         <p>docker run -it --rm -p 3000:3000 aleclimadev/website</p>
 
-        <h3>Como Rodar de Forma Tradicional</h3>
+        <h3>COMO RODAR DE FORMA TRADICIONAL</h3>
         <p>git clone https://github.com/AlecLimaDev/WebSite-FullStack.git</p>
         <p>
           Baixa as dependências através do <b>npm install or yarn add</b>
